@@ -9,6 +9,8 @@ client = genai.Client(
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
+
+
 def analyze_report(image):
 
     prompt = """
